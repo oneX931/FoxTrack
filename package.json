@@ -1,0 +1,22 @@
+{
+  "name": "foxtrack",
+  "version": "1.0.0",
+  "description": "FoxTrack — трекер видеоигр с данными из TheGamesDB",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail --names server,client --prefix-colors blue,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
