@@ -1,0 +1,89 @@
+:root {
+  --brand-navy: #1c1f4c;
+  --brand-orange: #f05c20;
+  --brand-cream: #f9e7cd;
+
+  --font-sans: 'Geist Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+  --font-pixel: 'Geist Pixel Square', var(--font-sans);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  --radius-sm: 0.4375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.125rem;
+  --radius-pill: 62.5rem;
+
+  --header-height: 3.5rem;
+  --bottom-nav-height: 4rem;
+  --container-max: 75rem;
+  --touch-target: 2.75rem;
+
+  --shadow-sm: 0 0.0625rem 0.125rem rgba(20, 21, 58, 0.08), 0 0.0625rem 0.0625rem rgba(20, 21, 58, 0.06);
+  --shadow-md: 0 0.375rem 1.25rem rgba(20, 21, 58, 0.14);
+  --shadow-lg: 0 1rem 2.5rem rgba(20, 21, 58, 0.22);
+
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --color-bg: #fbf1e1;
+  --color-surface: #fffaf1;
+  --color-surface-sunken: #f2e3c9;
+  --color-field: #fffdf8;
+  --color-text: #1d1f4b;
+  --color-muted: #525483;
+  --color-border: #ead9b8;
+  --color-border-strong: #857250;
+  --color-accent: #f05c20;
+  --color-accent-hover: #dd5015;
+  --color-accent-ink: #b33b09;
+  --color-on-accent: #1a0f08;
+  --color-focus: #1d1f4b;
+  --color-danger: #b42318;
+  --color-danger-bg: #fde8e4;
+  --color-wish: #2a2c6b;
+  --color-wish-bg: #e5e5f5;
+  --color-play: #8a3006;
+  --color-play-bg: #ffe0cc;
+  --color-done: #155c39;
+  --color-done-bg: #d8f0e2;
+  --color-scrim: rgba(28, 25, 15, 0.45);
+  --color-skeleton: #ecdcbb;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg: #14153a;
+  --color-surface: #1d1f4b;
+  --color-surface-sunken: #101132;
+  --color-field: #171843;
+  --color-text: #f9e7cd;
+  --color-muted: #bcb9d6;
+  --color-border: #34366e;
+  --color-border-strong: #7477ba;
+  --color-accent: #f05c20;
+  --color-accent-hover: #ff7134;
+  --color-accent-ink: #ff8e58;
+  --color-on-accent: #1a0f08;
+  --color-focus: #f9e7cd;
+  --color-danger: #ff8f80;
+  --color-danger-bg: #4a1d2b;
+  --color-wish: #dcdcff;
+  --color-wish-bg: #2b2e72;
+  --color-play: #ffd9c2;
+  --color-play-bg: #6a2f14;
+  --color-done: #c4f0d8;
+  --color-done-bg: #1c4a38;
+  --color-scrim: rgba(6, 6, 20, 0.6);
+  --color-skeleton: #262a5e;
+}
